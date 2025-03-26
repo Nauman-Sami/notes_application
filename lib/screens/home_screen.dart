@@ -21,11 +21,20 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
+      bottomNavigationBar: BottomAppBar(
+        child: Padding(padding: EdgeInsets.all(5),
+        child: Text('Made by NAUMAN SAMI'),
+        ),
+      color: Colors.grey,
+
+      ),
       backgroundColor: Colors.grey.shade400,
       appBar: AppBar(
           backgroundColor: Colors.black26,
           title: Text("NOTES APPLICATION"),
           centerTitle: true,
+        
 
       ),
 
